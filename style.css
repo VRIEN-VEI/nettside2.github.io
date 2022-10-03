@@ -95,6 +95,15 @@ nav {
 }
 
 
+/* Responsive layout */ 
+
+@media screen and (max-width: 600px) {
+	.column{
+		width: 100%;
+		
+	}
+}
+
 /* aside bar begynner*/
 
 aside ul {
@@ -184,7 +193,7 @@ aside li {
 
 
 .matBeskrivelse{
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 20px;
 
 }
@@ -306,6 +315,12 @@ footer a {
 		line-height: 1.6;
 		font-size: 18px;
 		
+	}
+	
+	#_tid{
+		padding-left:0px;
+	
+	}
 	}
 	
 	#_tid{
