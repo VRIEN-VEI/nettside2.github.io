@@ -255,9 +255,14 @@ th {
 
 footer {
 	
+	bottom: 0;
+	height: 2em;
+	left: 0; 
+	position: relative; 
 	color:white;
 	background-color:rgba(6,2,3,255);
 	height: 400px;
+	width:100%; 
 	
 }
 
