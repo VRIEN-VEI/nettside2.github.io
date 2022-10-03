@@ -1,16 +1,19 @@
 
+
 body {
 	
 	font-family:Helvetica Neue, Helvetica, Arial, San-serif;
 	margin: 0px;
 	padding: 0px;	
+	
 }
+
 
 header {
 	
 	height:400px;
 	background-image:url("kaffelogo.jpg");
-	background-color: rgb(0, 0, 0); 
+	background-color:rgb(0, 0, 0); 
 	background-repeat:no-repeat;
 	background-size:100%;
 	background-position:center;
@@ -18,11 +21,12 @@ header {
     
 }
 
-header a{
+
+header a {
 	
 	text-decoration: none;
 	margin-top: 100px;
-	color: rgb(255, 255, 255); 
+	color: rgb(255, 255, 255);
 	text-transform:uppercase;
 	position:relative;
 	margin-right: 40px;
@@ -30,25 +34,55 @@ header a{
 	
 }
 
-/* To kolonner som flyter ved siden av hverandre */ 
+/* Navigation lenk */
 
-.column {
-
-	float: left; 
-	padding: 70px; 
+nav {
+	
+	margin:0px;
+	height:50px;
+	text-align: right;
+	font-size: 20px;
 
 }
 
-.left {
 
+	nav li {
+		
+		display:inline;
+		margin-right:20px; 
+		
+	}
+	
+	nav ul {
+		
+		List-style-type:none;
+		margin:0px;
+		padding:0px;
+			
+	}
+
+	
+/* To kolonner som flyter ved siden av hverandre */ 
+
+.column {
+	
+	float: left; 
+	padding: 70px; 
+	
+}
+
+.left {
+	
 	width: 45%; 
 
 }
 
 .right {
-
+	
 	width: 55%; 
+	
 }
+
 
 /* Blir kvitt flyt etter kolonner */ 
 
@@ -60,71 +94,23 @@ header a{
 
 }
 
-/* Responsive layout */ 
 
-@media screen and (max-width: 600px) {
-
-	.column{
-		width: 100%;
-		}
-	
-	}
-
-}
-
-
-
-/* Navigation lenk */
-
-nav{
-	
-	margin:0px;
-	height:50px;
-	text-align: right; 
-	font-size: 17px;
-}
-
-
-	nav li{
-		
-		display:inline;
-		margin-right:40px; 
-
-	}
-	
-	nav ul{
-		
-		List-style-type:none;
-		margin:0px;
-		padding:0px;
-	}	
 /* aside bar begynner*/
 
-aside ul{
+aside ul {
 	
 	list-style-type:none;
 	
 }
-aside li{
+
+aside li {
 	
 	margin:30px;
 		
-/* Sidebar */
-
-.fa-solid {
-	color: black;
-	
-}
-
-.lister:link, .lister:visited, .listerhover, .lister:active {
-	text-decoration: none;
-	color: rgb(46, 31, 9);
-    font-size: 20px;
-	margin-top: 10px;
 }
 
 
-div _section{
+ div _section {
 	
 	background-color:white;
 	max-width:500px;
@@ -134,8 +120,22 @@ div _section{
 	
 }
 
+/* Sidebar */
 
-/* Tittel <<Vår meny >> */ 
+.fa-solid {
+	
+	color: black;
+	
+}
+
+.lister:link, .lister:visited, .listerhover, .lister:active {
+	text-decoration: none; 
+	color: rgb(46, 31, 9); 
+	font-size: 20px; 
+	margin-top: 10px; 
+	
+}
+	
 
 /* Tittel <<Vår meny >> */ 
 
@@ -147,42 +147,50 @@ div _section{
 }
 
 .tittelSeksjon h1 {
-
-	font-size: 50px;
-    color:  rgb(30, 102, 11);
-    border: 2px solid green;
-    border-color: rgb(48, 24, 4);
+	
+	font-size: 50px; 
+	color: rgb(30, 102, 11); 
+	border-color: rgb(48, 24, 4); 
 	margin: 50px;
-    width: 900px;
-    padding: 40px;
-    border-radius: 30px;
-
-  
-
+	width: 900px; 
+	padding: 40px; 
+	border-radius: 30px; 
+	
 }
+	
 
 .retterType {
+	
     color: rgb(46, 31, 9);
     font-size: 22px;
     margin-left: 50px;
+	
 }
+
+
 .enRetter{
 
     color: rgb(30, 102, 11);
     font-size: 20px;
+	
 }
+
 
 .enRetter h3{
 	
 	padding-left: 0px;
+	
 }
+
+
 .matBeskrivelse{
-    	color: rgb(0, 0, 0);
-    	font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 
 }
 
-.pris{
+
+.pris {
 	
 	float: right;
 	padding-right: 60px;
@@ -202,100 +210,105 @@ div _section{
 
 }
 
+
 /* Ikoner */
 
 .fa-solid {
 
-	color: rgb(0, 0, 0);
+	color: black;
 
 }
 
 
 /* Her starter styling av table */
 
+
 th, td {
 	
-  	padding: 55px;
-  	text-align: left; 
-  	background-color:rgb(245, 243,234);
-  	border-collapse: collapse;
- 	 border-radius: 5px;
-  	padding: 15px;
-  	width: 50%;
-  	margin: 50px;
+  padding: 55px;
+  text-align: left; 
+  background-color:rgb(245, 243,234);
+  border-collapse: collapse;
+  border-radius: 5px;
+  padding: 15px;
+  width: 50%;
+  margin: 50px;
+	
 }
 
-th{
+
+th {
 	text-align:center;
 }
 
+
 /* footer delen starter her ifra */
 
-footer{
+footer {
 	
-	color:rgb(255, 255, 255);
+	color:white;
 	background-color:rgba(6,2,3,255);
 	height: 400px;
 	
 }
 
-footer a{
+footer a {
 	
 	text-decoration:underline;
-	color:rgb(255, 255, 255);
+	color:white;
 }
 	
   /* Styler adresse delen */
  
-address{
-	
-	font-style: normal;
-	padding-left: 15px;
-	text-align: left;
-	font-size: 18px;
-	line-height: 1.6;
+	address {
 		
-}
+		font-style: normal;
+		padding-left: 15px;
+		text-align: left;
+		font-size: 18px;
+		line-height: 1.6;
+		
+	}
   
-/*  Styler kontakt informajon */
+  /*  Styler kontakt informajon */
   
-h3{
-	padding-left: 15px;
-	padding-top: 20px;
-	
-}
+	h3 {
+		padding-left: 15px;
+		padding-top: 20px;
+	}
   
-#contact{
+	#contact {
 		
-	line-height: 1.6;
-	text-align: left;
-	padding-left: 15px;
-	font-size: 18px;;
-}
+		line-height: 1.6;
+		text-align: left;
+		padding-left: 15px;
+		font-size: 18px;;
+	}
  
  
-/* Styler kopirett delen som er i footer */
+ /* Styler kopirett delen som er i footer */
  
-#copyright{
+	#copyright{
 		
-	text-align: center;
-	height: 10px;
-	font-size: 18px;
-}
+		text-align: center;
+		height: 10px;
+		font-size: 18px;
+	}
 	
-/* Styler åpningstider og setter den til høyre side av footer*/
+ /* Styler åpningstider og setter den til høyre side av footer*/
  
-#tid{
-	text-align:left;
-	float: right;
-	margin-top: -100px;
-	padding-right: 15px;
-	line-height: 1.6;
-	font-size: 18px;
+	#tid {
 		
-}
+		text-align:left;
+		float: right;
+		margin-top: -100px;
+		padding-right: 15px;
+		line-height: 1.6;
+		font-size: 18px;
+		
+	}
 	
-#_tid{
-	padding-left:0px;
+	#_tid{
+		padding-left:0px;
 	
-}
+	}
