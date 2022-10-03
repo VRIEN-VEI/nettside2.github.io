@@ -20,9 +20,9 @@ header{
 
 header a{
 	
-	text-decoration: white;
+	text-decoration: none;
 	margin-top: 100px;
-	background-color:black;
+	background-color:white;
 	color:	white;
 	contrast: 60px;
 	text-transform:uppercase;
