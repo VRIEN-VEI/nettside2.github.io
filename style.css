@@ -21,7 +21,7 @@ header a{
 	
 	text-decoration: none;
 	margin-top: 100px;
-	color:	white;
+	color:	grey;
 	contrast: 60px;
 	text-transform:uppercase;
 	position:relative;
@@ -44,7 +44,8 @@ nav{
 	nav li{
 		
 		display:inline;
-		margin-right:20px; 	
+		margin-right:20px; 
+		color: white;
 	}
 	
 	nav ul{
