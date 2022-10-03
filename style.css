@@ -24,6 +24,7 @@ header a{
 	color:white;
 	text-transform:uppercase;
 	position:relative;
+	contrast: 65%;
 	margin-right: 40px;
 	top:70px;
 	
