@@ -255,14 +255,10 @@ th {
 
 footer {
 	
-	bottom: 0;
-	height: 2em;
-	left: 0; 
-	position: fixed; 
 	color:white;
 	background-color:rgba(6,2,3,255);
-	height: 400px;
-	width:100%; 
+	flex: 0 0 50px;
+	margin-top: auto;
 	
 }
 
