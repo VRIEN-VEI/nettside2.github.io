@@ -12,8 +12,8 @@ body {
 header {
 	
 	height:400px;
-	background-image:url("kaffelogo.jpg");
 	background-color: svart;
+	background-image:url("kaffelogo.jpg");
 	background-repeat:no-repeat;
 	background-size:100%;
 	background-position:center;
@@ -24,9 +24,9 @@ header {
 
 header a {
 	
+	color:white;
 	text-decoration: none;
 	margin-top: 100px;
-	color:white;
 	text-transform:uppercase;
 	position:relative;
 	margin-right: 40px;
