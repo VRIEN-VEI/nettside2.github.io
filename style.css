@@ -9,6 +9,7 @@ body{
 header{
 	
 	height:400px;
+	background-color: black; 
 	background-image:url("kaffelogo.jpg");
 	background-repeat:no-repeat;
 	background-size:100%;
@@ -21,7 +22,7 @@ header a{
 	
 	text-decoration: none;
 	margin-top: 100px;
-	color:	black;
+	color:	white;
 	contrast: 60px;
 	text-transform:uppercase;
 	position:relative;
