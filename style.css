@@ -30,69 +30,8 @@ header a{
 	top:70px;
 	
 }
-/* Navigation lenk */
 
-nav{
-	
-	margin:0px;
-	height:50px;
-	text-align: right;
-}
-
-
-	nav li{
-		
-		display:inline;
-		margin-right:20px; 
-
-	}
-	
-	nav ul{
-		
-		List-style-type:none;
-		margin:0px;
-		padding:0px;
-	}	
-/* aside bar begynner*/
-
-aside ul{
-	
-	list-style-type:none;
-	
-}
-aside li{
-	
-	margin:30px;
-		
-}
-
-
- div _section{
-	
-	background-color:white;
-	max-width:500px;
-	margin:auto;
-	top : -100px;
-	
-	
-}
-
-/* Sidebar */
-
-.fa-solid {
-	color: black;
-	
-}
-
-.lister:link, .lister:visited, .listerhover, .lister:active {
-	text-decoration: none;
-	color: rgb(46, 31, 9);
-    font-size: 20px;
-	margin-top: 10px;
-}
-
-
-/* to kolonner som flyter ved siden av hverandre */ 
+/* To kolonner som flyter ved siden av hverandre */ 
 
 .column {
 
@@ -128,12 +67,73 @@ aside li{
 
 	.column{
 		width: 100%;
+		}
+	
 	}
 
 }
 
 
+
+/* Navigation lenk */
+
+nav{
+	
+	margin:0px;
+	height:50px;
+	text-align: right;
 }
+
+
+	nav li{
+		
+		display:inline;
+		margin-right:20px; 
+
+	}
+	
+	nav ul{
+		
+		List-style-type:none;
+		margin:0px;
+		padding:0px;
+	}	
+/* aside bar begynner*/
+
+aside ul{
+	
+	list-style-type:none;
+	
+}
+aside li{
+	
+	margin:30px;
+		
+/* Sidebar */
+
+.fa-solid {
+	color: black;
+	
+}
+
+.lister:link, .lister:visited, .listerhover, .lister:active {
+	text-decoration: none;
+	color: rgb(46, 31, 9);
+    font-size: 20px;
+	margin-top: 10px;
+}
+
+
+div _section{
+	
+	background-color:white;
+	max-width:500px;
+	margin:auto;
+	top : -100px;
+	
+	
+}
+
 
 /* Tittel <<Vår meny >> */ 
 
