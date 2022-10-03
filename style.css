@@ -102,16 +102,16 @@ aside li{
 
 .left {
 
-	width: 35%; 
+	width: 45%; 
 
 }
 
 .right {
 
-	width: 65%; 
+	width: 55%; 
 }
 
-/* Clear floats after the columns */ 
+/* Blir kvitt flyt etter kolonner */ 
 
 .row:after {
 
@@ -122,6 +122,14 @@ aside li{
 }
 
 /* Responsive layout */ 
+
+@media screen and (max-width: 600px) {
+
+	.column{
+		width: 100%;
+	}
+
+}
 
 
 }
