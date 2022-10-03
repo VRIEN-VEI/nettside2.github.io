@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvebredden Kafè</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="https://kit.fontawesome.com/b13c0ae639.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- Navigation lenk står i header delen sammen med logo  --> 
+
+<header>
+	
+	<nav>
+		<ul>
+		
+			<li><a href="index.html">Hjem</a></li>
+			<li><a>meny</a></li>
+			<li><a>Åpningstider</a></li>
+			<li><a>Adresse</a></li>
+			<li><a href="#footer">Kontakt oss</a></li>
+		
+		</ul>
+	</nav>
+	
+</header>
+
+<!--Under section har vi vår hoved meny -->
+<!-- Hele section er under div. Hver enkelte meny ble grupperte i div  --> 
+
+<div class="row"> 
+
+	<aside class="column">
+		
+		<ul>
+			<li > <a href="#R1" class="lister"><i class="fa-solid fa-bread-slice"></i> - Smørbrød </a></li>
+			<li > <a href="#R2" class="lister"><i class="fa-solid fa-seedling"></i> - Vegan og vegetar </a></li>
+			<li > <a href="#R3" class="lister"><i class="fa-solid fa-cake-candles"></i> - Kaker </a></li>
+			<li > <a href="#R4" class="lister"><i class="fa-solid fa-mug-saucer"></i> - Drikke </a></li>
+		</ul>
+		
+	</aside>
+
+	<!--Under section har vi vår hoved meny -->
+	<!-- Hele section er under div. Hver enkelte meny ble grupperte i div  --> 
+
+	<div class="column" id="_section">
+
+		<div class="tittelSeksjon">
+
+			<h1> Vår meny </h1>
+		
+		</div>
+
+		<!-- Her er det tre type smørbrød  --> 
+
+		<div class="retterType">
+
+			<h2 id="R1"> Smørbrød </h2>
+
+			<div class="enRetter">
+				 <h3>Smørbrød med karbonade og remulade <span class="pris" > 185 kr </span> </h3>
+			</div>
+			<div class="matBeskrivelse">
+				<p> Påsmurte brød med karbonade, sylteagurk, salat, rødløk, cherry tomat og remulade. </p>
+			</div>
+			<div>
+				<button class="allergen"><i class="fa-solid fa-egg fa-lg"></i> - Egg </button>
+			</div>  <br> 
+
+			<div class="enRetter">
+				<h3> Skagensmørbrød med reker <span class="pris"> 185 kr </span></h3>
+			</div>
+			<div class="matBeskrivelse">
+				<p> Påsmurte brød med sitron, reker, ruccolablader, hjertesalat, majones og salat. </p>
+			</div>
+			<div>
+				<button class="allergen"><i class="fa-solid fa-egg fa-lg"></i> - Egg </button> 
+				<button class="allergen"><i class="fa-solid fa-cow fa-lg"></i> - Melk </button> 
+				<button class="allergen"><i class="fa-solid fa-shrimp fa-lg"></i> - Skalldyr </button>
+				<button class="allergen"><i class="fa-solid fa-lemon fa-lg"></i> - Sitrus </button>
+			</div>  <br> 
+
+			<div class="enRetter">
+				<h3> Smørbrød med roastbeef og remulade <span class="pris"> 185 kr </span></h3>
+			</div>
+			<div class="matBeskrivelse">
+				<p> Påsmurte brød med grillet biffskiver, hjertesalat, syltet rødløk, cherrytomater og remulade.  </p>
+			</div>
+			<div>
+				<button class="allergen"><i class="fa-solid fa-egg fa-lg"></i> - Egg </button>
+			</div>  <br> 
+
+		</div>
+		<br><hr><br>
+		<!-- Her har vi vegan/vegetar meny liste  --> 
+
+		<div class="retterType">
+
+			<h2 id="R2"> Vegan og vegetar </h2>
+
+			<div class="enRetter">
+				 <h3> Elvebredden veganfjøl <span class="pris"> 239 kr </span></h3>
+			</div>
+			<div class="matBeskrivelse">
+				<p> Fjøl med avocadosmørbrød og chiapudding med korn og blåbær. Gulrot og ingefærgruppe. </p>
+			</div> <br> 
+
+			<div class="enRetter">
+				<h3> Vegetarsalat med plantebasert fetaost <span class="pris"> 209 kr </span></h3>
+			</div>
+			<div class="matBeskrivelse">
+				<p> En brun linsesalat med salatblanding, granatepler, plantebasert fetaost, babyspinat og hjemmelaget dressing. </p>
+			</div> <br> 
+
+			<div class="enRetter">
+				<h3> Gulrot og ingefærsuppe <span class="pris"> 135 kr </span></h3>
+			</div>
+			<div class="matBeskrivelse">
+				<p> Suppe med chili, ingefær, hvitløk, grønnsakskraft, rød paprika, kokosmelk, lime, koriander, salt og pepper.  </p>
+			</div>
+			<div>
+				<button class="allergen"><i class="fa-solid fa-lemon fa-lg"></i> - Sitrus </button>
+			</div>  <br> 
+
+		</div>
+
+		<br><hr><br>
+    	<!-- Her er dessert liste   --> 
+
+		<div class="retterType">
+
+			<h2 id="R3"> Kaker </h2>
+
+			<div class="enRetter">
+				 <h3> Brownies (glutenfrie) <span class="pris"> 46 kr </span></h3>
+			</div>
+			<div class="matBeskrivelse">
+				<p> Et smakfullt og sprøtt kakestykke med kakaosmak. </p>
+			</div>
+			<div>
+				<button class="allergen"><i class="fa-solid fa-egg fa-lg"></i> - Egg </button>
+			</div>  <br> 
+
+			<div class="enRetter">
+				<h3> Gulrotkake <span class="pris"> 46 kr </span> </h3>
+			</div>
+			<div class="matBeskrivelse">
+				<p> Et smakfullt kakestykke med revet gulrot, kanel og ostekrem på toppen. </p>
+			</div>
+			<div>
+				<button class="allergen"><i class="fa-solid fa-egg fa-lg"> </i> - Egg </button> 
+				<button class="allergen"><i class="fa-solid fa-cow fa-lg"></i>  - Melk </button> 
+				<button class="allergen"><i class="fa-solid fa-wheat-awn fa-lg"></i> - Gluten </button> 
+			</div>  <br> 
+
+			<div class="enRetter">
+			<h3> Eplekake <span class="pris"> 46 kr </span> </h3>
+			</div>
+			<div class="matBeskrivelse">
+				<p> Et smakfullt kakestykke med epler, malt kanel, mandler og vaniljesukker.  </p>
+			</div>
+			<div>
+				<button class="allergen"><i class="fa-solid fa-egg fa-lg"></i> - Egg </button> 
+				<button class="allergen"><i class="fa-solid fa-cow fa-lg"></i> - Melk </button> 
+				<button class="allergen"><i class="fa-solid fa-wheat-awn fa-lg"></i> - Gluten </button> 
+				<button class="allergen"><i class="fa-solid fa-hand-dots fa-lg"></i> - Nøtter </button> 
+			</div>  <br> 
+			
+		</div>
+		<br><hr><br>
+		<!-- Her begynner diverse drikker som finnes i restaurant  --> 
+	
+		<div class="retterType">
+		
+		<h2 id="R4" > Drikke </h2>
+<!-- Drikkelist og priser er listed her ved bruk av table-->
+
+	<table>
+		<tr>
+			<th>Drikke</th>
+			<th>Pris</th>
+		</tr>
+		<tr>
+			<td>Kaffe</td>
+			<td>39 kr</td>
+		</tr>
+		<tr>
+			<td>Cafe Latte</td>
+			<td>39 kr</td>
+		</tr>
+		<tr>
+			<td>Amerikano</td>
+			<td>47 kr</td>
+		</tr>
+		<tr>
+			<td>Espresso</td>
+			<td>40 kr</td>
+		</tr>
+		<tr>
+			<td>Eplemost</td>
+			<td>39 kr</td>
+		</tr>
+		<tr>
+			<td>Mineralvann</td>
+			<td>49 kr</td>
+		</tr>
+	</table>
+			
+			
+
+		</div>
+
+		
+	
+	
+
+	</div>
+
+</div>
+
+<!-- Footer inneholder kontakt detail, åpningstider og adresse --> 
+
+<footer id="footer">
+
+	<h3> Kontakt Oss  </h3>
+	<p id="contact"> Telefon: +47 92 66 17 00 <br>
+	<a href="mailto:reservasjon@elvebreddenkafe.no">Email for reservasjon</a><br>
+	</p>
+	
+	<div id="tid">
+	<h3 id="_tid"> Åpningstider </h3>
+
+	Mandag - Fredag 10:00-16:00 <br>
+	Lørdag 10:00-17:00 <br>
+	Søndag stengt <br>
+	</div>
+	
+	
+	<h3>  Adresse:</h3>
+	<address>
+		
+		Elvebredden Kafè<br>
+		Skomværsgata 2 <br>
+		3921 Porsgrunn <br><br><br>
+		
+	</address>
+	
+	<hr>
+	
+	<p id="copyright">&copy; Kopirett 2022 - Gruppe 53</p>
+	
+</footer>
+
+
+</body>
+</html>
